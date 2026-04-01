@@ -1,6 +1,6 @@
 // Configuración de Backendless
-const APP_ID = "AQUÍ_TU_APPLICATION_ID";
-const API_KEY = "AQUÍ_TU_REST_API_KEY";
+const APP_ID = "F36A6231-27B4-4309-985D-ABD6304CB7B9";
+const API_KEY = "D78E2CAD-F316-464E-B22E-44CEEA2185DE";
 const BASE_URL = `https://api.backendless.com/${APP_ID}/${API_KEY}/data`;
 
 // ------------------------------
