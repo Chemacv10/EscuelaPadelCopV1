@@ -3,6 +3,16 @@ document.addEventListener("DOMContentLoaded", async () => {
   // PRUEBA DE CONEXIÓN
   const alumnos = await obtenerTabla("alumnos");
   console.log("Alumnos desde Backendless:", alumnos);
+  
+  const contenedor = document.querySelector("#lista-alumnos .contenido");
+
+  if (alumnos.length === 0) {
+    contenedor.innerHTML = "<p>No hay alumnos registrados.</p>";
+  } else {
+    contenedor.innerHTML = alumnos
+      .map(a => `<p>• ${a.nombre} ${a.apellidos || ""}</p>`)
+      .join("");
+}
 
 });
 
