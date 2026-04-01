@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   cargarFecha();
   cargarPanel();
+  const alumnos = await obtenerTabla("alumnos");
+  console.log("Alumnos desde Backendless:", alumnos);
 });
 
 function cargarFecha() {
