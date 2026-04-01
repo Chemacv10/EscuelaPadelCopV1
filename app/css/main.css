@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.topbar {
+  background: #2563eb;
+  color: white;
+  padding: 18px;
+  text-align: center;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.panel {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.kpi {
+  background: #eef2ff;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.kpi strong {
+  font-size: 20px;
+  color: #2563eb;
+}

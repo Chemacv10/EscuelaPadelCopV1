@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel del Monitor</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+  <header class="topbar">
+    <h1>🧠 Panel del Monitor</h1>
+    <p id="fecha"></p>
+  </header>
+
+  <main class="panel">
+
+    <section class="card" id="alertas">
+      <h2>📌 Alertas importantes</h2>
+      <div class="contenido"></div>
+    </section>
+
+    <section class="card" id="sugerencias">
+      <h2>🎯 Sugerencias de ejercicios</h2>
+      <div class="contenido"></div>
+    </section>
+
+    <section class="card" id="clases">
+      <h2>📅 Próximas clases</h2>
+      <div class="contenido"></div>
+    </section>
+
+    <section class="card" id="kpis">
+      <h2>📊 KPIs del mes</h2>
+      <div class="kpi-grid"></div>
+    </section>
+
+    <section class="card" id="ranking">
+      <h2>🏅 Ranking del mes</h2>
+      <div class="contenido"></div>
+    </section>
+
+  </main>
+
+  <script src="../shared/ui.js"></script>
+  <script src="../shared/store.js"></script>
+  <script src="js/monitor.js"></script>
+
+</body>
+</html>
